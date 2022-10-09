@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--   -- درس 2 من 20 م احمد صالح الدقيقة 17  fonawsome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>Categories List</title>
+  </head>
+  <body class="webBackGround">
+    <!-- Start Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active text-warning">
+            <a class="nav-link text-warning" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-white" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- start category -->
+    <div class="container whiteBackGround">
+      <div class="row">
+        <div class="col-6">
+          <h2 class="text-info">Categories List</h2>
+        </div>
+
+        <div class="col-6 text-right">
+          <a class="btn btn-info">
+            <i class="fas fa-plus"></i> &nbsp; Create New</a
+          >
+        </div>
+      </div>
+      <!-- table category -->
+      <table class="table table-striped border">
+        <tr class="table-secondary">
+          <th scope="col">#</th>
+          <th>الاسم</th>
+
+          <th>السن</th>
+          <th>العنوان</th>
+        </tr>
+
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>احمد</td>
+
+            <td>45</td>
+            <td>العصافره</td>
+          </tr>
+        
+        </tbody>
+      </table>
+    </div>
+
+    <!-- End  category -->
+
+    <footer
+      class="border-top footer text-white bg-dark"
+      style="text-align: center"
+    >
+      <div class="container">&copy; 2022 Category</div>
+    </footer>
+
+    <!-- البوتستراب والجى كويرى من درس 2 من 20 احمد صالح -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
